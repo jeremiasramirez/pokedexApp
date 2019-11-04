@@ -1,2 +1,2 @@
 # pokedexApp
-app para visualizar pokemones
+app para visualizar pokemones utilizando angularJS - route Module
