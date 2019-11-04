@@ -7,14 +7,32 @@
     </ul>
 </div>
 
+<div class="separator"></div>
+
+
 
 <!--
     all pokemon app
 -->
 
 
-<div >
+<div class="containerMainPokemon">
+    <div class="containerPokemon blurtime" ng-repeat="pokemon in pokemonAll">
 
+        <a href="#" class="reset__link">
+
+<!--            title pokemon-->
+            <h1 class="pokemonTitle letter4">{{pokemon.name}}</h1>
+
+<!--            img pokemon-->
+            <div class="container__imagePokemon">
+                <img class="imagePokemon" ng-src="public/images/pokemons/{{pokemon.path}}" alt="">
+            </div>
+
+        </a>
+        <div class="showDescription">Ver pokemon</div>
+
+    </div>
 </div>
 
 

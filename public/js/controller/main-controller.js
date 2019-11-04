@@ -1,6 +1,6 @@
 pokedexApp.controller("mainPokedex", ["$scope", "$http", function($scope, $http){
 
-
+    $scope.pokemonAll = {};
     /*
     * request
     * */
@@ -11,9 +11,8 @@ pokedexApp.controller("mainPokedex", ["$scope", "$http", function($scope, $http)
 
     }).then((res)=>{
 
-
-        console.log(res)
-
+        $scope.pokemonAll = res.data;
+        // console.log($scope.pokemonAll)
 
     })
 
