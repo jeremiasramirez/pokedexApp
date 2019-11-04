@@ -16,5 +16,7 @@
   "bugs": {
     "url": "https://github.com/jeremiasramirez/pokedexApp/issues"
   },
-  "homepage": "https://github.com/jeremiasramirez/pokedexApp#readme"
+  "homepage": "https://github.com/jeremiasramirez/pokedexApp#readme",
+  "devDependencies" : ["angular@1.7.8", "angular-route"]
+
 }
