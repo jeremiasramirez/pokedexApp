@@ -1,0 +1,66 @@
+<!--
+    menu  + title app
+-->
+<div>
+    <ul class="menu--blue">
+        <li class="letter4"><a href="#">{{onlyPokemon.name}}</a></li>
+    </ul>
+</div>
+
+<div class="separator"></div>
+<div class="iconLoad">
+    <button ng-click="backPage()" class="btn--rm">
+        <i class="fas fa-long-arrow-alt-left letter5"></i>
+    </button>
+</div>
+
+<div class="separator"></div>
+
+
+
+<!--
+    all pokemon app
+-->
+
+
+<div class="pokemonApp">
+
+
+    <!--    container only 1 pokemon-->
+    <div class="pokemon__container blurtime">
+
+            <!-- title pokemon-->
+            <h1 class="pokemon__title">{{onlyPokemon.name}}</h1>
+
+            <!--  img pokemon-->
+            <div>
+                <img ng-src="public/images/pokemons/{{onlyPokemon.path}}" alt="poke">
+            </div>
+
+
+        <div class="specification">
+
+           <h1 class="letter4 title ">Specification</h1>
+
+           <p class="separation"> <span class="btn--rm min">Habilidades</span>   <span class="btn--add min">{{onlyPokemon.abilities[0]}}</span> </p>
+
+
+           <p class="separation"> <span class="btn--rm min">Altura</span>  <span class="btn--add min">{{onlyPokemon.height}}</span> </p>
+
+            <p class="separation"> <span class="btn--rm min"> Peso </span>  <span class="btn--add min">{{onlyPokemon.weight}}</span> </p>
+
+            <p class="separation"> <span class="btn--rm min">Categoria </span> <span class="btn--add min">{{onlyPokemon.categories}}</span class="btn--add"> </p>
+
+
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+
+
+

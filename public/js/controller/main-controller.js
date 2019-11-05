@@ -2,6 +2,7 @@ pokedexApp.controller("mainPokedex", ["$scope", "$http", function($scope, $http)
 
     $scope.titleMenu = "Pokemons";
 
+
     $scope.overOnPoster = function(data){
         $scope.titleMenu = data;
     };

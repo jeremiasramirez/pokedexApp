@@ -107,11 +107,36 @@
 }
 
 
+.iconLoad{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:0;
+    background-color: white;
+}
+
+.iconLoad a{
+    background-color: white;
+    margin: 0 .5em;
+    font-size: 25px;
+    color: orange;
+
+}
 
 
 
 
+/*
+menu pokemon
+*/
 
+.menuPokemon{
+    margin-top: 0;
+    background-color:orangered;
+    color:white;
+    padding: .3em;
+}
 
 
 
