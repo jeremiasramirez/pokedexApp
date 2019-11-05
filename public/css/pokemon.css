@@ -12,7 +12,6 @@
 }
 .pokemon__container:hover{
     cursor:pointer;
-    transform: rotateY(-10deg);
 }
 .back__page{
     background-color: darkred;
@@ -75,11 +74,13 @@
     z-index: 1000;
     background-color: orangered;
     padding-right: 1em;
+    margin-bottom: 3em;
 }
 
 
 .menu__title__pokemon{
    text-align: center;
+    color: white
 }
 
 
