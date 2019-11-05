@@ -26,7 +26,6 @@ pokedexApp.controller("mainPokedex", ["$scope", "$http", function($scope, $http)
     }).then((res)=>{
 
         $scope.pokemonAll = res.data;
-        // console.log($scope.pokemonAll)
 
     });
 
