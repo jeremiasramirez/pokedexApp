@@ -1,122 +1,50 @@
 [
   {
     "name" : "Abra",
-    "height" : "0,9 m",
-    "weight" : "19,5 kg",
-    "categories" : "Psi",
-    "type" : ["Psiquico"],
-    "abilities" : ["Foco interno", "Sincronia"],
-    "description" : "Abra duerme 18 horas al día, pero puede detectar a cualquier enemigo que se le acerque mientras duerme. En una situación así, usa Teletransporte para protegerse.",
     "path" : "abra.jpg"
   },
   {
     "name" : "Aerodactyl",
-    "height" : "1,8 m",
-    "weight" : "59,0 kg",
-    "categories" : "Fósil",
-    "type" : ["roca"],
-    "abilities" : ["Cabeza roca", "Presión"],
-    "description" : "Los orígenes de Aerodactyl datan de la era de los dinosaurios. Se regeneró a partir de material genético contenido en ámbar. Se supone que fue el amo de los cielos en épocas pasadas.",
     "path" : "aerodactyl.jpg"
   },
   {
     "name" : "Alakazam",
-    "height" : "1,8 m",
-    "weight" : "48,0 kg",
-    "categories" : "Psi",
-    "type" : ["Psiquico"],
-    "abilities" : ["Foco interno", "Sincronia"],
-    "description" : "El cerebro de Alakazam nunca deja de crecer y por eso al cuello le cuesta sostener el peso de la cabeza. Este Pokémon usa sus poderes psicoquinéticos para mantener en alto la cabeza.",
     "path" : "alakazam.jpg"
   },
   {
     "name" : "Arbok",
-    "height" : "1,5 m",
-    "weight" : "48,0 kg",
-    "categories" : "cobra",
-    "type" : ["roca"],
-    "abilities" : ["Mudar", "Intimidación"],
-    "description" : "Este Pokémon es tremendamente fuerte, puede oprimir cualquier cosa con su cuerpo y hasta es capaz de estrujar un barril de acero. Una vez que Arbok se enrosca a su víctima, no hay forma de escapar de su asfixiante abrazo.",
     "path" : "arbok.jpg"
   },
   {
     "name" : "Arcanine",
-    "height" : "1,9 m",
-    "weight" : "155,0 kg",
-    "categories" : "Legendario",
-    "type" : ["Fuego"],
-    "abilities" : ["Intimidación", "Absorbe fuego"],
-    "description" : "Arcanine es conocido por lo veloz que es. Dicen que es capaz de correr 10 000 km en 24 horas. El fuego que arde con vigor en el interior de este Pokémon constituye su fuente de energía.",
     "path" : "arcanine.jpg"
   },
   {
     "name" : "Articuno",
-    "height" : "1,7 m",
-    "weight" : "55,4 kg",
-    "categories" : "Legendario",
-    "type" : ["Fuego", "Volador"],
-    "abilities" : ["Presión"],
-    "description" : "Articuno es un Pokémon pájaro legendario que puede controlar el hielo. El batir de sus alas congela el aire. Dicen que consigue hacer que nieve cuando vuela.",
     "path" : "articuno.jpg"
   },
   {
     "name" : "Beedrill",
-    "height" : "1,0 m",
-    "weight" : "29,5 kg",
-    "categories" : "Abeja Ven",
-    "type" : ["Bicho", "Veneno"],
-    "abilities" : ["Enjambre"],
-    "description" : "Los Beedrill defienden su territorio a toda costa. No es conveniente acercarse a su colmena, por seguridad. Si se les molesta, todo un enjambre atacará ferozmente",
     "path" : "beedrill.jpg"
   },
   {
     "name" : "Bellsprout",
-    "height" : "0,7 m",
-    "weight" : "4,0 kg",
-    "categories" : "Flor",
-    "type" : ["Planta", "Veneno"],
-    "abilities" : ["Clorofila"],
-    "description" : "Bellsprout tiene un cuerpo delgado y flexible que le permite inclinarse y balancearse para esquivar los ataques. Este Pokémon escupe por la boca un fluido corrosivo capaz de hacer que se derrita hasta el hierro.",
     "path" : "bellsprout.jpg"
   },
   {
     "name" : "Vaporeon",
-    "height" : "1,0 m",
-    "weight" : "29,0 kg",
-    "categories" : "Burbuja",
-    "type" : ["Agua"],
-    "abilities" : ["Absorbe Agua"],
-    "description" : "Vaporeon sufrió una mutación repentina y desarrolló aletas y branquias que le permiten vivir bajo el agua. Asimismo, este Pokémon tiene la habilidad de controlar las aguas.",
     "path" : "vaporeon.jpg"
   },
   {
     "name" : "Venomoth",
-    "height" : "1,5 m",
-    "weight" : "12,5 kg",
-    "categories" : "Polilla Ven",
-    "type" : ["Bicho", "Veneno"],
-    "abilities" : ["Polvo Escudo", "Cromolente"],
-    "description" : "Venomoth es nocturno, solo actúa en la oscuridad. Su alimento preferido son los pequeños insectos que se concentran cerca de los focos de luz en la oscuridad de la noche.",
     "path" : "venomoth.jpg"
   },
   {
     "name" : "Wartortle",
-    "height" : "1,0 m",
-    "weight" : "22,5 kg",
-    "categories" : "Tortuga",
-    "type" : ["Agua"],
-    "abilities" : ["Torrente"],
-    "description" : "Tiene una cola larga y cubierta de un pelo abundante y grueso que se torna más oscuro a medida que crece. Los arañazos que tiene en el caparazón dan fe de lo buen guerrero que es.",
     "path" : "wartortle.jpg"
   },
   {
     "name" : "Weedle",
-    "height" : "0,3 m",
-    "weight" : "3,2 kg",
-    "categories" : "Oruga",
-    "type" : ["Bicho", "Veneno"],
-    "abilities" : ["Polvo Escudo"],
-    "description" : "Weedle tiene un finísimo sentido del olfato. Es capaz de distinguir las hojas que le gustan de las que no le gustan olisqueando un poco con la gran nariz que tiene.",
     "path" : "weedle.jpg"
   }
 
