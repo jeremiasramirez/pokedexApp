@@ -46,47 +46,64 @@
 .imagePokemon{
     width: 100%;
     height:100%;
+    transform: scale(.8);
+    transition: 1s;
 }
 .containerPokemon{
     padding-bottom: 1em;
     position: relative;
+    margin:.5em;
+    width: 310px;
+    height: 310px;
     text-align: center;
+    margin-left: -.1em;
     margin-top: 1em;
     background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid rgba(1%, 1%, 40%, 20%);
+    border-radius: 8px;
     margin-bottom: 3em;
     overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow: 5px 9px 10px 8px #eee;
 }
 .containerPokemon:hover{
     cursor:pointer;
-    transform: translateY(-5px);
-    box-shadow: 1px 1px 15px 2px #888;
+    box-shadow: 1px 1px 15px 8px rgba(1%, 1%, 20%, 30%);
+}
+.containerPokemon:hover .imagePokemon{
+    transform: scale(.9) rotate(10deg);
+    transition: 1s .5s;
 }
 
 
-
 .showDescription{
-
     position: absolute;
     width: 100%;
-    background-color: rgba(1%, 1%, 8%, 90%);
-    color:white;
-    bottom: 0px;
-    left: -10%;
+    background-color: darkblue;
+    color: orange;
+    transform: translateX(-100%) scaleX(0);
+    opacity: 0;
     height: 100%;
     font-size: 25px;
     font-family: sans-serif;
     line-height: 320px;
     text-align: center;
-
+    transition: 3s;
+    top: 0;
+}
+.links{
+    width: 310px;
+    height: 310px;
 }
 
 
-.containerPokemon:hover, .showDescription{
-
-
-
+.containerPokemon:hover .showDescription{
+    transition: .8s;
+    opacity: 1;
+    background-color: rgba(1%, 1%, 8%, 90%);
+    transform-origin: bottom left;
+    transform: translateX(0) scaleX(1);
+    top: 0;
 }
 
 
