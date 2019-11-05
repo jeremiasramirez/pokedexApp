@@ -3,7 +3,7 @@
 -->
 <div>
     <ul class="menu--blue">
-        <li class="letter4"><a href="#">Pokemons</a></li>
+        <li class="letter4"><a href="#">{{titleMenu}}</a></li>
     </ul>
 </div>
 
@@ -15,22 +15,30 @@
     all pokemon app
 -->
 
-
+<!--container all pokemon-->
 <div class="containerMainPokemon">
+
+        <!--    container only 1 pokemon-->
     <div class="containerPokemon blurtime" ng-repeat="pokemon in pokemonAll">
 
-        <a href="#" class="reset__link">
+        <a href="#" class="reset__link links">
 
-<!--            title pokemon-->
+            <!-- title pokemon-->
             <h1 class="pokemonTitle letter4">{{pokemon.name}}</h1>
 
-<!--            img pokemon-->
+            <!--  img pokemon-->
             <div class="container__imagePokemon">
                 <img class="imagePokemon" ng-src="public/images/pokemons/{{pokemon.path}}" alt="">
             </div>
 
+            <!-- poster -->
+            <div class="showDescription"
+                 title="{{pokemon.name}}"
+                 ng-mouseover="overOnPoster(pokemon.name)"
+                 ng-mouseleave="overOnLeave()"> Ver pokemon </div>
+
         </a>
-        <div class="showDescription">Ver pokemon</div>
+
 
     </div>
 </div>
