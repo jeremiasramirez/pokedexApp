@@ -6,6 +6,10 @@ pokedexApp.config(function($routeProvider){
             templateUrl: "partial/partial-main.html",
             controller: "mainPokedex"
         })
+        .when("/:pokemonName", {
+            templateUrl: "partial/partial-pokemon.html",
+            controller: "onlyPokemon"
+        })
         .otherwise({
             redirectTo: "/"
         })

@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <!--    title app   -->
-    <title>Pokedex | App</title>
+    <title>Pokedex | APP</title>
 
 <!--  styles css main -->
 
@@ -26,13 +26,13 @@
 
 
 
-<!--  libraries  js  -->
+<!--  libraries  && files js  -->
 
 
-    <!--   Main js -->
+    <!-- Main js -->
     <script src="public/js/main.js"></script>
 
-    <!--    easydom -->
+    <!-- easydom -->
     <script src="public/css/lib/easydom/easydom.js"></script>
 
     <!-- angular -->
@@ -47,20 +47,32 @@
     <!--  config app - routes  -->
     <script src="public/js/config-routes.js"></script>
 
-
-    <!-- controllers app-->
+    <!-- controllers main app-->
     <script src="public/js/controller/main-controller.js"></script>
+
+    <!-- controller only pokemon app -->
+    <script src="public/js/controller/pokemon-controller.js"></script>
+
 
 
 </head>
 <body>
-
-
-<div ng-view>
-
-</div>
+    <!--
+        starting body...
+    -->
 
 
 
+    <!--
+        view of page
+    -->
+
+    <div ng-view> </div>
+
+
+
+<!--
+*   end  App
+-->
 </body>
 </html>
