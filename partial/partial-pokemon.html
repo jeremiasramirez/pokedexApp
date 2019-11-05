@@ -1,21 +1,21 @@
 <!--
     menu  + title app
 -->
-<div>
-    <ul class="menu--blue">
-        <li class="letter4"><a href="#!/{{onlyPokemon.name}}">{{onlyPokemon.name}}</a></li>
-    </ul>
+<div class="menu" >
+
+
+    <!--back page button-->
+
+        <button ng-click="backPage()" class="btn--rm back__page">
+            <i class="fas fa-long-arrow-alt-left letter4"></i>
+        </button>
+
+    <p class="menu__title__pokemon">{{onlyPokemon.name}}</p>
 </div>
 
 
 <div class="separator"></div>
 
-<!--back page button-->
-<div class="iconLoad">
-    <button ng-click="backPage()" class="btn--rm">
-        <i class="fas fa-long-arrow-alt-left letter4"></i>
-    </button>
-</div>
 
 <div class="separator"></div>
 

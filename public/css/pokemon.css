@@ -4,10 +4,21 @@
     text-align: center;
 }
 .pokemon__container{
-    border: 1px solid rgba(100%, 1%, 1%, 20%);
+    border: none;
     width: 315px;
     padding: .3em;
     border-radius: 5px;
+    box-shadow: 10px 10px 15px 10px #eee;
+}
+.pokemon__container:hover{
+    cursor:pointer;
+    transform: rotateY(-10deg);
+}
+.back__page{
+    background-color: darkred;
+}
+.back__page:hover{
+    transform: scale(.9);
 }
 .pokemon__title{
 
@@ -48,10 +59,28 @@
 
 
 
+.menu{
+    padding: 0 0;
+    margin-top: -25px;
+    position: sticky;
+    /*line-height: 60px;*/
+    top: 0;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    font-size: 25px;
+    z-index: 1000;
+    background-color: orangered;
+    padding-right: 1em;
+}
 
 
-
-
+.menu__title__pokemon{
+   text-align: center;
+}
 
 
 

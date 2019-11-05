@@ -3,8 +3,12 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", functio
 
     //back page function
     $scope.backPage = function(){
-        history.back()
+        setTimeout(()=>{
+            history.back();
+        },400);
+
     };
+
 
     //main data
     $scope.onlyPokemon = [];
