@@ -6,7 +6,6 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", functio
 
     $scope.onlyPokemon = [];
 
-
     $scope.nameUrlPokemon = $routeParams.pokemonName;
 
     $scope.findedPokemon = 0;
@@ -33,15 +32,12 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", functio
            $scope.onlyPokemon = res.data[$scope.positionPokemon];
        }
        else{
+
            setTimeout(()=>{
                $scope.backPage();
                $scope.$apply();
-
            },800)
        }
-       console.log($scope.onlyPokemon)
-
-
 
     })
 

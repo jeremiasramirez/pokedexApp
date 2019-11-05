@@ -29,6 +29,20 @@
 }
 
 
+.descriptionContainer{
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px 10px #eee;
+}
+
+.descriptionContainer .paragraph{
+    color: #666;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+
+}
 
 
 

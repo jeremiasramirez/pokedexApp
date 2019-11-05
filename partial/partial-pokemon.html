@@ -3,14 +3,17 @@
 -->
 <div>
     <ul class="menu--blue">
-        <li class="letter4"><a href="#">{{onlyPokemon.name}}</a></li>
+        <li class="letter4"><a href="#!/{{onlyPokemon.name}}">{{onlyPokemon.name}}</a></li>
     </ul>
 </div>
 
+
 <div class="separator"></div>
+
+<!--back page button-->
 <div class="iconLoad">
     <button ng-click="backPage()" class="btn--rm">
-        <i class="fas fa-long-arrow-alt-left letter5"></i>
+        <i class="fas fa-long-arrow-alt-left letter4"></i>
     </button>
 </div>
 
@@ -37,7 +40,7 @@
                 <img ng-src="public/images/pokemons/{{onlyPokemon.path}}" alt="poke">
             </div>
 
-
+<!--speficification pokemon-->
         <div class="specification">
 
            <h1 class="letter4 title ">Specification</h1>
@@ -52,11 +55,15 @@
 
             <p class="separation"> <span class="btn--rm min">Categoria </span> <span class="btn--add min">{{onlyPokemon.categories}}</span class="btn--add"> </p>
 
+            <p class="btn--yes min">Description</p>
+
+            <!-- description pokemon-->
+            <div class="descriptionContainer">
+                <p class="paragraph">{{onlyPokemon.description}}</p>
+            </div>
 
         </div>
-
     </div>
-
 
 
 
