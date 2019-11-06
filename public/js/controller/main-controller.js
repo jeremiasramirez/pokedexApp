@@ -1,6 +1,6 @@
 pokedexApp.controller("mainPokedex", ["$scope", "$http", function($scope, $http){
 
-    $scope.titleMenu = "Pokemons";
+    $scope.titleMenu = "";
 
 
     $scope.overOnPoster = function(data){
@@ -8,7 +8,7 @@ pokedexApp.controller("mainPokedex", ["$scope", "$http", function($scope, $http)
     };
 
     $scope.overOnLeave = function(data){
-        $scope.titleMenu = "Pokemons";
+        $scope.titleMenu = "";
     };
 
 

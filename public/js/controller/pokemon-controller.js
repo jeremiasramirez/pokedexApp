@@ -7,7 +7,7 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", functio
 
         setTimeout(()=>{
             history.back();
-        },0);
+        },400);
 
     };
 
