@@ -14,6 +14,11 @@
     <a href="/" class="fas fa-sync-alt" ></a>
 </div>
 
+<form class="form" style="position: sticky;top:0; z-index: 100;">
+    <input type="text"
+           placeholder="Buscar pokemon"
+           ng-model="searchPokemon">
+</form>
 <div class="separator"></div>
 
 
@@ -26,7 +31,7 @@
 <div class="containerMainPokemon">
 
         <!--    container only 1 pokemon-->
-    <div class="containerPokemon blurtime" ng-repeat="pokemon in pokemonAll">
+    <div class="containerPokemon blurtime" ng-repeat="pokemon in pokemonAll | filter:searchPokemon">
 
         <a href="#!/{{pokemon.name}}" class="reset__link links">
 

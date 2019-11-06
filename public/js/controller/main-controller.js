@@ -12,7 +12,7 @@ pokedexApp.controller("mainPokedex", ["$scope", "$http", function($scope, $http)
     };
 
 
-    $scope.pokemonAll = {};
+    $scope.pokemonAll = [];
 
 
     /*
