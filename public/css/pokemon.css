@@ -83,8 +83,71 @@
     color: white
 }
 
+@media screen and (min-width: 850px){
+    .pokemonApp{
+       text-align: center;
+        width: 800px;
+    }
+    .pokemon__container{
+        display: flex;
+        width: auto;
+    }
+    .containerImagePokemon{
+        display: flex;
+        width: 300px;
+        margin-left: 5em;
+        margin-right: 3em;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+}
 
 
 
+@media screen and (min-width: 900px){
+    .pokemonApp{
+        width: 910px;
+    }
+    .containerImagePokemon{
+        display: flex;
+        width: 300px;
+        margin-left: 9em;
+        margin-right: 3em;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
 
 
+}
+
+@media screen and (min-width: 1000px){
+    .pokemonApp{
+        width: 950px;
+    }
+    .containerImagePokemon{
+        display: flex;
+        width: 300px;
+        margin-left: 10em;
+        margin-right: 9em;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+@media screen and (min-width: 1050px){
+    .pokemonApp{
+        width: 1200px;
+    }
+    .containerImagePokemon{
+        display: flex;
+        width: 300px;
+        margin-left: 16em;
+        margin-right: 12em;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+
+}
