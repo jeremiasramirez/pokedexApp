@@ -47,7 +47,7 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", functio
        }
        else{
            //if not find return back page
-
+           $scope.backPage();
            setTimeout(()=>{
 
                //function back page
@@ -56,10 +56,10 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", functio
                $scope.$apply();
 
                if(window.screenY >=10){
-                   floatNotificationError("No se ha encontrado nada con: "+$routeParams.pokemonName)
+                   floatNotificationError("Url no encontrada")
                }
                else if (window.screenY < 10){
-                   windowError("Url invalida", "No se ha encontrado nada con: '"+$routeParams.pokemonName+"'")
+                   windowError("Url invalida", "Url no encontrada");
                }
 
            //timing execute
