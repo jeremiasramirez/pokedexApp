@@ -1,7 +1,10 @@
+
+
 .pokemonApp{
     display: flex;
     justify-content: center;
     text-align: center;
+
 }
 .pokemon__container{
     border: none;
@@ -66,7 +69,7 @@
     position: sticky;
     /*line-height: 60px;*/
     top: 0;
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -85,6 +88,10 @@
     color: white;
     transform : scale(.8);
     margin-right: -1em;
+}
+
+.margin{
+    margin-top: -.4em;
 }
 
 @media screen and (min-width: 850px){
@@ -164,3 +171,10 @@
         transform: rotate(360deg);
     }
 }
+
+
+
+
+
+
+
