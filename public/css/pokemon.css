@@ -181,13 +181,14 @@
 
 
 .scalarPoke{
-    animation: scalarPokemon 5s linear;
+    animation: scalarPokemon 3s linear forwards;
     transition:10s;
+    transform: scale(.9);
 }
 @keyframes scalarPokemon{
     to{
         transition :10s;
-        transform: scale(1.1) rotate(5deg);
+        transform: scale(1) rotate(-5deg) translateX(-10px);
     }
 }
 
