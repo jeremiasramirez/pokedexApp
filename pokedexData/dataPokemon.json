@@ -119,6 +119,17 @@
     "description" : "Weedle tiene un finísimo sentido del olfato. Es capaz de distinguir las hojas que le gustan de las que no le gustan olisqueando un poco con la gran nariz que tiene.",
     "path" : "weedle.jpg"
   }
+,
+  {
+    "name" : "Dratini",
+    "height" : "1,8 m",
+    "weight" : "3,3 kg",
+    "categories" : "Dragón",
+    "type" : ["Dragón"],
+    "abilities" : ["Polvo Escudo"],
+    "description" : "Dratini muda y se despoja de la vieja piel continuamente. Es algo que necesita hacer porque la energía que tiene en su interior no para de alcanzar niveles incontrolables.",
+    "path" : "dratini.jpg"
+  }
 
 
 
