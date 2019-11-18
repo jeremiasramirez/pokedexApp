@@ -2,6 +2,7 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", functio
     //starting controller
 
 
+
     //back page function
     $scope.backPage = function(){
 
@@ -68,9 +69,25 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", functio
 
        }
 
-    })
+    });
 
+//    hidden info
+    $scope.hideInformationPokemon = 0;
 
+    $scope.switchInfo = 0;
+    $scope.hideInfo = function(){
+
+        if ( $scope.switchInfo === 0 ){
+            $scope.hideInformationPokemon = 1;
+            $scope.switchInfo = 1;
+        }
+        else{
+
+            $scope.switchInfo = 0;
+            $scope.hideInformationPokemon = 0;
+        }
+
+    };
 
 
 
