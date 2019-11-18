@@ -1,4 +1,4 @@
-pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", function($scope, $http, $routeParams){
+pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$timeout", "$routeParams", function($scope, $http, $timeout, $routeParams){
     //starting controller
 
 
@@ -49,12 +49,11 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$routeParams", functio
        else{
            //if not find return back page
            $scope.backPage();
-           setTimeout(()=>{
+           $timeout(()=>{
 
                //function back page
                $scope.backPage();
-               //updating scope
-               $scope.$apply();
+
 
                if(window.screenY >=10){
                    floatNotificationError("Url no encontrada")
