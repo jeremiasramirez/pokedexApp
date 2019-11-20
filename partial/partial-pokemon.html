@@ -42,7 +42,7 @@
 
 <!--speficification pokemon-->
         <div class="specification">
-           <h1 class="letter4 title ">Specification <span class="btn--rm" ng-class="{'btn--yes' : switchInfo==1}" ng-click="hideInfo()"> Ocultar </span>  </h1>
+           <h1 class="letter4 title ">Specification <span class="btn--rm min" ng-class="{'far fa-eye btn--yes' : switchInfo==1}" ng-click="hideInfo()"> {{textSwitch}} </span>  </h1>
             <article ng-hide="hideInformationPokemon">
                <p class="separation"> <span class="btn--rm min" title="{{onlyPokemon.type[0]}}">Tipo</span>   <span class="btn--add min">{{onlyPokemon.type[0]}}</span> </p>
 
@@ -52,7 +52,7 @@
 
                 <p class="separation"> <span class="btn--rm min" title="{{onlyPokemon.weight}}"> Peso </span>  <span class="btn--add min">{{onlyPokemon.weight}}</span> </p>
 
-                <p class="separation"> <span class="btn--rm min" title="{{onlyPokemon.categories}}">Categoria </span> <span class="btn--add min">{{onlyPokemon.categories}}</span class="btn--add"> </p>
+                <p class="separation"> <span class="btn--rm min" title="{{onlyPokemon.categories}}">Categoría </span> <span class="btn--add min">{{onlyPokemon.categories}}</span class="btn--add"> </p>
 
                 <p class="btn--yes min">Description</p>
 

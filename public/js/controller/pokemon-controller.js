@@ -74,16 +74,19 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$timeout", "$routePara
     $scope.hideInformationPokemon = 0;
 
     $scope.switchInfo = 0;
+    $scope.textSwitch = "Hide";
     $scope.hideInfo = function(){
 
         if ( $scope.switchInfo === 0 ){
             $scope.hideInformationPokemon = 1;
             $scope.switchInfo = 1;
+            $scope.textSwitch = "Show"
         }
         else{
 
             $scope.switchInfo = 0;
             $scope.hideInformationPokemon = 0;
+            $scope.textSwitch = "Hide"
         }
 
     };
