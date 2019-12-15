@@ -91,6 +91,14 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$timeout", "$routePara
 
     };
 
+ 
+    $scope.topPage = function(){
+      
+        $timeout(()=>{
 
+        window.scrollTo(0,0)
 
+        },500)
+
+    }
 }]);
