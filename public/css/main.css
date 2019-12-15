@@ -85,6 +85,7 @@
     transform: translateX(-100%) scaleX(0);
     opacity: 0;
     height: 100%;
+    margin-left: -.6em;
     font-size: 25px;
     font-family: sans-serif;
     line-height: 320px;

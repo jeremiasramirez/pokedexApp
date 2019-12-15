@@ -6,13 +6,13 @@
 
     <!--back page button-->
 
-        <button ng-click="backPage()" class="btn--rm back__page">
+        <button ng-click="backPage()" class="btn--rm">
             <i class="fas fa-long-arrow-alt-left letter4"></i>
         </button>
 
     <p><a href="#!/" title="INICIO" > <img   class="margin loaderPokemon" src="public/images/pokeball.png"></a></p>
 
-    <p class="menu__title__pokemon">{{onlyPokemon.name}}</p>
+    <p class="menu__title__pokemon letter3">{{onlyPokemon.name}}</p>
 </div>
 
 
@@ -42,7 +42,7 @@
 
 <!--speficification pokemon-->
         <div class="specification">
-           <h1 class="letter4 title ">Specification <span class="btn--rm min" ng-class="{'far fa-eye btn--yes' : switchInfo==1}" ng-click="hideInfo()"> {{textSwitch}} </span>  </h1>
+           <h1 class="letter4 title ">Specification <span class="btn--rm minmin" ng-class="{'far fa-eye btn--yes' : switchInfo==1}" ng-click="hideInfo()"> {{textSwitch}} </span>  </h1>
             <article ng-hide="hideInformationPokemon">
                <p class="separation"> <span class="btn--rm min" title="{{onlyPokemon.type[0]}}">Tipo</span>   <span class="btn--add min">{{onlyPokemon.type[0]}}</span> </p>
 

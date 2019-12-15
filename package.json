@@ -17,6 +17,11 @@
     "url": "https://github.com/jeremiasramirez/pokedexApp/issues"
   },
   "homepage": "https://github.com/jeremiasramirez/pokedexApp#readme",
-  "devDependencies" : ["angular@1.7.8", "angular-route"]
-
+  "devDependencies": [
+    "angular@1.7.8",
+    "angular-route"
+  ],
+  "dependencies": {
+    "jeremias-lib": "^1.1.4"
+  }
 }
