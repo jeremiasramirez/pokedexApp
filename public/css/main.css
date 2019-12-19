@@ -37,6 +37,15 @@
 
     }
 }
+
+
+@media screen and (max-width: 320px){
+
+    .containerMainPokemon{
+        margin-bottom: 1em;
+    }
+
+}
 .pokemonTitle{
     text-align: center;
     font-family: albattar;
@@ -54,10 +63,10 @@
     padding-bottom: 1em;
     position: relative;
     margin:.5em;
-    width: 310px;
-    height: 310px;
+    width: 320px;
+    height: 320px;
     text-align: center;
-    margin-left: -.1em;
+    margin-left: -.4em;
     margin-top: 1em;
     background-color: white;
     border: 1px solid rgba(1%, 1%, 40%, 20%);
@@ -76,7 +85,18 @@
     transition: 1s .5s;
 }
 
+@media screen and (min-width: 600px){
+    
+   .containerPokemon{
+        width: 500px;
+        margin-left: -6.8em;
+        margin-bottom: 1em;
+   }
 
+.showDescription{
+    display: none;
+}
+}
 .showDescription{
     position: absolute;
     width: 100%;

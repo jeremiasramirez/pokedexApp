@@ -5,6 +5,10 @@
     text-align: center;
 
 }
+.menu--pokemon{
+    text-align: center;
+    margin-left: -1em;
+}
 .pokemon__container{
     border: none;
     width: 315px;
@@ -124,14 +128,14 @@
  .toppage span{
     font-size: 25px;
     color: blue;
-    transform: rotate(180deg);
     transition: 1s;
     cursor: pointer;
 
 }
 .toppage span:hover{
     transition: 1s;
-    transform: rotate(0);
+    /*transform: rotate(180deg);*/
+    /*transform: rotate(0);*/
 }
 
 @media screen and (min-width: 900px){
@@ -183,34 +187,16 @@
 }
 
 .loaderPokemon{
-    animation: loaderPoke 6s 1500ms infinite linear backwards;
+    
     transition: 1s;
-    margin-top: -1.2em;
+    font-size: 40px;
+    transform: scale(1);
+    margin-bottom: -1em;
+    position: absolute;
+    padding-bottom: 0;
+    
+    top: 5px;
+    margin-left: -.5em;
 }
-@keyframes loaderPoke{
-    5%{
-        transition: 1s;
-        transform: scale(1.2);
-    }
-    20%{
-        transition: 1s;
-        transform: rotate(360deg);
-    }
-}
-
-
-
-.scalarPoke{
-    animation: scalarPokemon 3s linear forwards;
-    transition:10s;
-    transform: scale(.9);
-}
-@keyframes scalarPokemon{
-    to{
-        transition :10s;
-        transform: scale(1) rotate(-5deg) translateX(-10px);
-    }
-}
-
-
+ 
 

@@ -2,7 +2,7 @@ pokedexApp.controller("mainPokedex", ["$scope", "$timeout", "$http", function($s
 
     $scope.titleMenu = "";
 
-    floatNotificationInfo("Cargando..");
+
 
     $scope.overOnPoster = function(data){
         $scope.titleMenu = data;

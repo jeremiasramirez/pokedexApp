@@ -3,8 +3,8 @@
     menu  + title app
 -->
 <div>
-    <ul class="menu--white">
-        <li class="letter3"><a href="#!/">{{titleMenu}}</a> <img class="loaderPokemon" src="public/images/pokeball.png"></li>
+    <ul class="menu--pokemon">
+        <img class="loaderPokemon" src="public/images/pokeball.png"></li>
     </ul>
 </div>
 
@@ -50,7 +50,7 @@
             <div class="showDescription"
                  title="{{pokemon.name}}"
                  ng-mouseover="overOnPoster(pokemon.name)"
-                 ng-mouseleave="overOnLeave()"> Ver pokemon </div>
+                 ng-mouseleave="overOnLeave()"> Ver {{pokemon.name}} </div>
 
         </a>
 
