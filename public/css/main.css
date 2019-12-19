@@ -87,15 +87,13 @@
 
 @media screen and (min-width: 600px){
     
-   .containerPokemon{
+/*   .containerPokemon{
         width: 500px;
         margin-left: -6.8em;
         margin-bottom: 1em;
-   }
+   }*/
 
-.showDescription{
-    display: none;
-}
+ 
 }
 .showDescription{
     position: absolute;

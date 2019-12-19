@@ -189,7 +189,6 @@
 .loaderPokemon{
     
     transition: 1s;
-    font-size: 40px;
     transform: scale(1);
     margin-bottom: -1em;
     position: absolute;
