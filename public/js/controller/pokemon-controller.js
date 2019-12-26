@@ -4,13 +4,11 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$timeout", "$routePara
 
 
     //back page function
-    $scope.backPage = function(){
-
-        setTimeout(()=>{
-            history.back();
-        },400);
-
-    };
+  $scope.backPage = function(){
+    
+    history.replaceState(1,"", "localhost/pokedexApp")
+       
+  };
 
 
     //main data
@@ -94,11 +92,26 @@ pokedexApp.controller("onlyPokemon", ["$scope", "$http", "$timeout", "$routePara
  
     $scope.topPage = function(){
       
-        $timeout(()=>{
+       let counterScroll = window.scrollY;
 
-        window.scrollTo(0,0)
+       let intervalScroll = setInterval(function(){
+         counterScroll-=20;
 
-        },500)
+
+         console.log(counterScroll)
+         $scope.resetScroll(counterScroll);
+
+         if(counterScroll === 0 || counterScroll < 0)
+           clearInterval(intervalScroll);
+
+       }, 10);
 
     }
+
+    $scope.resetScroll = function(value){
+      window.scrollTo(0, value)
+    }
+
+
+    
 }]);
