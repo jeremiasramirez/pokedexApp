@@ -7,7 +7,9 @@
 }
 .menu--pokemon{
     text-align: center;
-    margin-left: -1em;
+    margin-left: -.7em;
+    border-bottom: 1px solid #eee;
+
 }
 .pokemon__container{
     border: none;
@@ -72,7 +74,7 @@
     position: sticky;
     /*line-height: 60px;*/
     top: 0;
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -80,7 +82,7 @@
     text-align: center;
     font-size: 25px;
     z-index: 1000;
-    background-color: orangered;
+    background-color: rgba(85%, 0%, 0%, 75%);
     padding-right: 1em;
     margin-bottom: 3em;
 }
@@ -92,7 +94,7 @@
    text-align: right;
     color: white;
     font-weight: 600;
-    margin-top: .4em;
+    margin-top: .2em;
     transform : scale(.8);
     margin-right: -1em;
 }
@@ -104,7 +106,20 @@
 .margin{
     margin-top: -.4em;
 }
-
+.btnBack{
+    background-color: rgba(60%, 0%, 0%, 60%);
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.btnBack{
+    color: #ddd;
+}
+.btnBack:hover{
+    color: white;
+    transition: .5s;
+    background-color: rgba(40%, 0%, 0%, 60%);
+}
 
 @media screen and (min-width: 850px){
     .pokemonApp{
@@ -193,9 +208,9 @@
     margin-bottom: -.5em;
     position: absolute;
     padding-bottom: 0;
-    
-    top: 7px;
+    top: 6px;
     margin-left: -1em;
+   
 }
  
 

@@ -4,7 +4,7 @@
 -->
 <div>
     <ul class="menu--pokemon">
-        <img class="loaderPokemon" src="public/images/pokeball.png"></li>
+        <img class="in loaderPokemon" src="public/images/pokeball.png"></li>
     </ul>
 </div>
 
@@ -18,7 +18,7 @@
 <form class="form" style="position: sticky;top:0; z-index: 100;">
     <input type="text"
            placeholder="Buscar pokemon"
-           ng-model="searchPokemon" class="input">
+           ng-model="searchPokemon" class="">
 </form>
 <div class="separator"></div>
 
@@ -32,7 +32,7 @@
 <div class="containerMainPokemon">
 
         <!--    container only 1 pokemon-->
-    <div class="containerPokemon blurtime" ng-repeat="pokemon in pokemonAll | filter:searchPokemon">
+    <div class="containerPokemon in" ng-repeat="pokemon in pokemonAll | filter:searchPokemon">
 
         <a href="#!/{{pokemon.name}}" class="reset__link links">
 
