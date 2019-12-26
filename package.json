@@ -23,6 +23,6 @@
   ],
   "dependencies": {
     "angular-route": "^1.7.9",
-    "jeremias-lib": "^1.1.5"
+    "jeremias-lib": "^1.1.6"
   }
 }
